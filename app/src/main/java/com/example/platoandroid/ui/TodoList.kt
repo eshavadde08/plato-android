@@ -59,7 +59,6 @@ import kotlin.random.Random
  * As an example, TodoList & Title both define a parameter of "title: String".
  * Also remember that String is just the fancy term we use for text. Think of it
  * as "a string of characters".
- *
  * Next, once you have the TodoListRow composable created, and it takes in
  * a parameter of taskName, we need to do something with that taskName. For
  * now, we are just going to set it to display as normal text. Inside of your
@@ -118,4 +117,5 @@ fun Title(title: String) {
   )
 }
 
-// Create a new composable here vvv
+@Composable
+fun TodoList(taskname: String)

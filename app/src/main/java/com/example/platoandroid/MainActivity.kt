@@ -104,6 +104,7 @@ class MainActivity : ComponentActivity() {
             Button( onClick = {/*TODO*/}) {
               /*Task 1*/
             }
+            TodoList(title = "My Todo List")
             // ^^^^^ add above ^^^^^
             // ^^^ YOUR TEST AREA
           }
