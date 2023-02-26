@@ -100,7 +100,10 @@ class MainActivity : ComponentActivity() {
              * it's just so you can leave helpful notes like this one :)
              */
             // YOUR TEST AREA vvv
-
+            Text(text = "Hello World!")
+            Button( onClick = {/*TODO*/}) {
+              /*Task 1*/
+            }
             // ^^^^^ add above ^^^^^
             // ^^^ YOUR TEST AREA
           }
